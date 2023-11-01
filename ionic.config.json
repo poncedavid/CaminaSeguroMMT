@@ -1,0 +1,7 @@
+{
+  "name": "CaminaSegura",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
