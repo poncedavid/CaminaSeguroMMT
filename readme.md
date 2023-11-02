@@ -15,3 +15,7 @@ https://ionicframework.com/docs/theming/colors
 
 ## Para htpp client
 https://ia-pplication.com/blog/ionic-http
+
+
+## Para agregar capacitor
+ ng add @capacitor/angular

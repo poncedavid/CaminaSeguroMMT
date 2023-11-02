@@ -29,14 +29,11 @@ export class SedesPage implements OnInit {
 
     console.log('token', this.token);
     //localStorage.removeItem('token');
-
     localStorage.clear();
-
     this.getSedes().subscribe(res =>{
       console.log('Res',res)
       this.sedes = res;
     });
-
   }
 
   getSedes(){
@@ -48,8 +45,6 @@ export class SedesPage implements OnInit {
       })
     )
   }
-
-
   async presentToast1() {
     const toast = await this.toastController.create({
       message: 'Seleccionaste la sede.',
@@ -58,8 +53,6 @@ export class SedesPage implements OnInit {
     });
     toast.present();
   }
-
-
   async presentAlert1() {
     const alert = await this.alertController.create({
       header: 'Borrar Sede',
@@ -92,8 +85,6 @@ export class SedesPage implements OnInit {
         console.log('click en si');
       }
       }],
-      
-
     });
 
     await alert.present();

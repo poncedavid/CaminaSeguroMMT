@@ -10,28 +10,24 @@ export class AppComponent {
   public appPages = [
 
     { title: 'Denunciar',
-      url: '/home',
-      icon: 'home' },
+      url: '/denuncia',
+      icon: 'warning' },
 
     { title: 'Perfil',
-      url: '/home',
-      icon: 'home' },
+      url: '/perfil',
+      icon: 'body' },
 
-    { title: 'Inicio',
-      url: '/home',
-      icon: 'home' },
+    { title: 'Noticias',
+      url: '/noticias',
+      icon: 'newspaper' },
 
     { title: 'Mis denuncias',
       url: '/home',
-      icon: 'home' },
-
-    { title: 'Noticias',
-      url: '/home',
-      icon: 'home' },
+      icon: 'documents' },
 
     { title: 'Alarma',
-      url: '/home',
-      icon: 'home' },
+      url: '/alarma',
+      icon: 'flag' },
 
     { title: 'Usuarios',
       url: '/customers',

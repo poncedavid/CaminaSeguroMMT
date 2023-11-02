@@ -34,7 +34,19 @@ const routes: Routes = [
   {
     path: 'sede/:id',
     loadChildren: () => import('./pages/sede/sede.module').then( m => m.SedePageModule)
+  },  {
+    path: 'denuncia',
+    loadChildren: () => import('./pages/denuncia/denuncia.module').then( m => m.DenunciaPageModule)
+  },
+  {
+    path: 'noticias',
+    loadChildren: () => import('./pages/noticias/noticias.module').then( m => m.NoticiasPageModule)
+  },
+  {
+    path: 'alarma',
+    loadChildren: () => import('./pages/alarma/alarma.module').then( m => m.AlarmaPageModule)
   }
+
 
 ];
 
