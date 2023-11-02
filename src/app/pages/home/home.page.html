@@ -1,10 +1,14 @@
 <ion-header>
   <ion-toolbar color="mmt">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>
       Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
+
 
 <ion-content>
 
@@ -66,4 +70,41 @@
   <div id="container">
     <button class="btn" (click)="irPerfil()">Perfil</button>
   </div>
+
+
+
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="map"></ion-icon>
+        Mapa
+      </ion-tab-button>
+
+
+      <ion-tab-button tab="radio">
+        <ion-icon name="newspaper"></ion-icon>
+        Radio
+      </ion-tab-button>
+
+
+      <ion-tab-button tab="library">
+        <ion-icon name="home"></ion-icon>
+        Inicio
+      </ion-tab-button>
+
+
+      <ion-tab-button tab="search">
+        <ion-icon name="notifications"></ion-icon>
+        Alertas
+      </ion-tab-button>
+
+      <ion-tab-button tab="search">
+        <ion-icon name="menu"></ion-icon>
+        Menu
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
 </ion-content>
