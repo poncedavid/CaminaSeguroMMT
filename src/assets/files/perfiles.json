@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "name": "Nombre 1",
+            "state": "Estado 1",
+            "description": "Descripción 1",
+            "image": "ruta/a/la/imagen1.jpg"
+        },
+        {
+            "name": "Nombre 2",
+            "state": "Estado 2",
+            "description": "Descripción 2",
+            "image": "ruta/a/la/imagen2.jpg"
+        },
+        {
+            "name": "Nombre 3",
+            "state": "Estado 3",
+            "description": "Descripción 3",
+            "image": "ruta/a/la/imagen3.jpg"
+        }
+    ]
+}

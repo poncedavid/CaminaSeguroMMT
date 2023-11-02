@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "name": "Maipú",
+            "image": "maipu.jpeg"
+        },
+        {
+            "name": "Plaza Oeste",
+            "image": "plazaoeste.jpeg"
+        },
+        {
+            "name": "Viña del Mar",
+            "image": "plazavespucio.jpeg"
+        }
+    ]
+}

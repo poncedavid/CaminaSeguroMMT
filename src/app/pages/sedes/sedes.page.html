@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="mmt">
+    <ion-title>
+      Sedes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let sede of sedes">
+
+      <ion-card (click)="presentToast1()">
+        <img src="../../../assets/sedes/img/{{sede.image}}" alt="Sedes">
+        <div class="card-title">
+          <h2>{{sede.name}}</h2>
+        </div>
+      </ion-card>
+
+    </ion-col>
+  </ion-row>
+
+
+</ion-content>
