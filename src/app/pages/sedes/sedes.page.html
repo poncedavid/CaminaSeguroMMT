@@ -13,7 +13,10 @@
   <ion-row>
     <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let sede of sedes">
 
-      <ion-card (click)="presentToast1()">
+      <!-- <ion-card (click)="presentToast1()" >  -->
+      <!-- <ion-card (click)="presentAlert1()" >  -->
+      <!-- <ion-card (click)="presentAlert2()" >  -->
+      <ion-card [routerLink]="['/sede',sede.id]" > 
         <img src="../../../assets/sedes/img/{{sede.image}}" alt="Sedes">
         <div class="card-title">
           <h2>{{sede.name}}</h2>

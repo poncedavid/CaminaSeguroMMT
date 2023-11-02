@@ -4,16 +4,31 @@
       Perfil
     </ion-title>
   </ion-toolbar>
+  <ion-toolbar color="mmt">
+    <ion-searchbar placeholder="Buscar" animated (ionChange)="searchCustomer($event)"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+
+<ion-refresher slot="fixed" (ionRefresh) ="doRefresh($event)">
+  <ion-refresher-content refreshingSpinner="lines-small">
+  </ion-refresher-content>
+</ion-refresher>
+
+
+
+
+
+  
   <ion-list *ngIf="permission">
     <!-- ** Aqui inicia la lists -->
 
     <ion-list-header>
       Conversacion reciente
     </ion-list-header>
-    <ion-item *ngFor="let user of users">
+    <ion-item *ngFor="let user of searchedUser">
       <ion-avatar slot="start">
         <img src="../../../assets/customers/img/mmt.png" alt="">
       </ion-avatar>

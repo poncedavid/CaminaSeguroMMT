@@ -1,26 +1,7 @@
-<ion-header>
-  <ion-toolbar color="mmt">
-    <ion-title>
-      Login
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
 
-  <ion-grid>
-    <ion-row class="fondo">
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
-        <div class="texto">Texto1</div>
-      </ion-col>
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
-        <div class="texto">Texto1</div>
-      </ion-col>
-      </ion-row>
-  </ion-grid>
-
-
-
-
-
+  <ion-input type="text" placeholder="Email"></ion-input>
+  <ion-input type="password" placeholder="Contraseña"></ion-input>
+  <ion-button color="primary" (click)="login()" >Login</ion-button>
+  
 </ion-content>

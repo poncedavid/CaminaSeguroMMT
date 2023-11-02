@@ -9,7 +9,27 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
 
+    { title: 'Denunciar',
+      url: '/home',
+      icon: 'home' },
+
+    { title: 'Perfil',
+      url: '/home',
+      icon: 'home' },
+
     { title: 'Inicio',
+      url: '/home',
+      icon: 'home' },
+
+    { title: 'Mis denuncias',
+      url: '/home',
+      icon: 'home' },
+
+    { title: 'Noticias',
+      url: '/home',
+      icon: 'home' },
+
+    { title: 'Alarma',
       url: '/home',
       icon: 'home' },
 
@@ -26,6 +46,6 @@ export class AppComponent {
       icon: 'information-circle' },
   ];
 
-  public labels = [];
+
   constructor() {}
 }

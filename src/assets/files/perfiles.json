@@ -1,25 +1,43 @@
 {
     "data": [
         {
-            "name": "Nombre 1",
+            "name": "David",
             "state": "Estado 1",
             "description": "Descripción 1",
             "image": "ruta/a/la/imagen1.jpg"
         },
         {
-            "name": "Nombre 2",
+            "name": "Yoselin",
             "state": "Estado 2",
             "description": "Descripción 2",
             "image": "ruta/a/la/imagen2.jpg"
         },
         {
-            "name": "Nombre 3",
+            "name": "Luis",
             "state": "Estado 3",
             "description": "Descripción 3",
             "image": "ruta/a/la/imagen3.jpg"
         },
         {
-            "name": "Nombre 4",
+            "name": "Liza",
+            "state": "Estado 4",
+            "description": "wenaasssasasa",
+            "image": "ruta/a/la/imagen3.jpg"
+        },
+        {
+            "name": "Liza",
+            "state": "Estado 4",
+            "description": "wenaasssasasa",
+            "image": "ruta/a/la/imagen3.jpg"
+        },
+        {
+            "name": "asdasdas",
+            "state": "Estado 4",
+            "description": "wenaasssasasa",
+            "image": "ruta/a/la/imagen3.jpg"
+        },
+        {
+            "name": "asdasdas",
             "state": "Estado 4",
             "description": "wenaasssasasa",
             "image": "ruta/a/la/imagen3.jpg"
