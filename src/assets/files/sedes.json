@@ -2,15 +2,24 @@
     "data": [
         {
             "name": "Maipú",
-            "image": "maipu.jpeg"
+            "image": "maipu.jpeg",
+            "address":"Av. concepcion 555"
         },
         {
             "name": "Plaza Oeste",
-            "image": "plazaoeste.jpeg"
+            "image": "plazaoeste.jpeg",
+            "address":"Av. concepcion 555"
         },
         {
             "name": "Viña del Mar",
-            "image": "plazavespucio.jpeg"
+            "image": "plazavespucio.jpeg",
+            "address":"Av. concepcion 555"
+        },
+        {
+            "name": "Concepción",
+            "image": "concepcion.jpg",
+            "address":"Av. concepcion 555"
+
         }
     ]
 }

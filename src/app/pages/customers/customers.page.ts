@@ -13,7 +13,7 @@ import{ map } from 'rxjs/operators';
 export class CustomersPage implements OnInit {
 
   users: any = [];
-  permission: boolean = false;
+  permission: boolean = true;
 
   constructor(
     private router: Router,
@@ -24,11 +24,7 @@ export class CustomersPage implements OnInit {
     this.permission;
 
 
-    console.log("HLAAAAA")
-    console.log(this.permission)
-
     this.getUsers().subscribe(res =>{
-      console.log('Res',res)
       this.users = res;
     });
   }

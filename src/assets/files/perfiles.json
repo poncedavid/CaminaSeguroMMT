@@ -17,6 +17,12 @@
             "state": "Estado 3",
             "description": "Descripción 3",
             "image": "ruta/a/la/imagen3.jpg"
+        },
+        {
+            "name": "Nombre 4",
+            "state": "Estado 4",
+            "description": "wenaasssasasa",
+            "image": "ruta/a/la/imagen3.jpg"
         }
     ]
 }

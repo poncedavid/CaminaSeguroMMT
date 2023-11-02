@@ -18,6 +18,10 @@ export class AppComponent {
     { title: 'Sedes',
       url: '/sedes',
       icon: 'location' },
+
+    { title: 'Información',
+      url: '/informacion',
+      icon: 'information-circle' },
   ];
 
   public labels = [];

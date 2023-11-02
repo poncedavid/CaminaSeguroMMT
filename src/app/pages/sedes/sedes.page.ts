@@ -25,7 +25,6 @@ export class SedesPage implements OnInit {
 
   ngOnInit() {
     this.getSedes().subscribe(res =>{
-      console.log('Res',res)
       this.sedes = res;
     });
 
