@@ -19,3 +19,11 @@ https://ia-pplication.com/blog/ionic-http
 
 ## Para agregar capacitor
  ng add @capacitor/angular
+
+
+ ## Versión
+
+ 1. Versión de "node -v" v18.17.1
+ 2. Versión de "npm -v" v10.2.0
+
+ 
