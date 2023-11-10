@@ -4,6 +4,8 @@ creado con el comando ionic start CaminaSeguro sidemenu
 
 ## Para generar componentes
 "" ionic g page pages/home""
+"" ionic g page pages/home/tuto05""
+
 
 ## Iconos
 
