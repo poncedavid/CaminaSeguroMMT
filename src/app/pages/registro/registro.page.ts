@@ -15,10 +15,12 @@ export class RegistroPage implements OnInit {
   ngOnInit() {
   }
 
-
-
   registroMail() {
     this.router.navigate(['/registro/email'])
+  }
+
+  irTutorial() {
+    this.router.navigate(['/home/tuto01'])
   }
 
 

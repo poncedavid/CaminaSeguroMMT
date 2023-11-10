@@ -3,9 +3,9 @@
 creado con el comando ionic start CaminaSeguro sidemenu
 
 ## Para generar componentes
-"" ionic g page pages/home""
-"" ionic g page pages/home/tuto05""
-
+1. "" ionic g page pages/home""
+2. "" ionic g page pages/home/tuto05""
+3. "" ionic g guard ingresado ""
 
 ## Iconos
 
@@ -27,5 +27,3 @@ https://ia-pplication.com/blog/ionic-http
 
  1. Versión de "node -v" v18.17.1
  2. Versión de "npm -v" v10.2.0
-
- 9 3879 3403
