@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms'; // import Validators
-import { AlertController } from '@ionic/angular'; // import AlertController
+import { AlertController, NavController } from '@ionic/angular'; // import AlertController
 
 
 
@@ -18,7 +18,8 @@ export class LoginPage implements OnInit {
   constructor(
     private router: Router,
     public fb: FormBuilder, // inject FormBuilder
-    public alertController: AlertController
+    public alertController: AlertController,
+    public navCtrl: NavController
   ) {
 
 
@@ -52,6 +53,8 @@ export class LoginPage implements OnInit {
   
       if (usuario && usuario.nombre === f.nombre && usuario.password === f.password) {
         console.log("Usuario correcto");
+        localStorage.setItem('ingreso', 'true');
+        this.navCtrl.navigateRoot('home');
       } else {
         const alert = await this.alertController.create({
           header: 'Datos incorrectos',

@@ -7,7 +7,7 @@ import {
   FormBuilder
 } from '@angular/forms';
 
-import { AlertController } from '@ionic/angular';
+import { AlertController,NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-email',
@@ -21,7 +21,8 @@ export class EmailPage implements OnInit {
   constructor(
     public fb: FormBuilder,
     private router: Router,
-    public alertController: AlertController
+    public alertController: AlertController,
+    public navCtrl: NavController
   ) {
     this.formularioRegistro = this.fb.group({
       'nombre': new FormControl("", Validators.required),
@@ -54,5 +55,7 @@ export class EmailPage implements OnInit {
   }
 
   localStorage.setItem('usuario', JSON.stringify(usuario));
+  localStorage.setItem('ingreso', 'true');
+  this.navCtrl.navigateRoot('home');
 }
 }
