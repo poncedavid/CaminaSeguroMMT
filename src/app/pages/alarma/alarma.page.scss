@@ -1,0 +1,36 @@
+.rojo{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+ion-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+}
+
+
+ion-col h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+
+    
+}
+
+
+ion-col h3{
+
+    font-size: 25px;
+    text-align: center;
+
+    
+}

@@ -21,10 +21,6 @@ export class AppComponent {
       url: '/noticias',
       icon: 'newspaper' },
 
-    { title: 'Mis denuncias',
-      url: '/home',
-      icon: 'documents' },
-
     { title: 'Alarma',
       url: '/alarma',
       icon: 'flag' },
