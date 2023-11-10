@@ -1,0 +1,59 @@
+ion-button{
+    border-radius: 10px;
+    background: rgb(228,79,156);
+    background: linear-gradient(90deg, rgba(228,79,156,1) 0%, rgba(255,151,217,1) 50%, rgba(189,19,236,1) 100%);
+}
+
+
+.main{
+    background-color: var(--ion-color-mmt);
+}
+ion-content{
+    
+    background-color: var(--ion-color-mmt);
+}
+
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 30px;
+}
+
+.descripcion{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.margen-sup{
+    margin-top: 40px;
+}
+
+.relleno{
+    padding: 30px;
+}
+
+span{
+    color: rgb(179, 88, 149);
+}
+
+.principal{
+    background: rgb(228,79,156);
+    background: linear-gradient(90deg, rgba(228,79,156,1) 0%, rgba(255,151,217,1) 50%, rgba(189,19,236,1) 100%);
+}
+
+
+button {
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(228, 79, 156);
+    background: linear-gradient(90deg, rgba(228, 79, 156, 1) 0%, rgba(255, 151, 217, 1) 50%, rgba(189, 19, 236, 1) 100%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  

@@ -1,13 +1,37 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>tuto02</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class ="principal">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tuto02</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+
+    <ion-row>
+      <ion-col sizeLg="12" sizeMd="12" sizeXs="12">
+        <h1 class="titulo"><span>Bienvenido</span> a tu nuevo perfil en Camina Seguro</h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col sizeLg="12" sizeMd="12" sizeXs="12">
+        <p class="descripcion">Un nuevo lugar para tu nombre de usuario, biografía y las denuncias que has creado en Camina
+          Seguro.</p>
+      </ion-col>
+    </ion-row>
+
+    <div class="relleno">
+      <img src="../../../assets/tutoriales/tuto01.jpeg" class="logo-principal">
+    </div>
+
+
+    <ion-row class="margen-sup">
+      <ion-col> <button (click)="irTutorial02()" expand="block">Continuar</button>
+      </ion-col>
+    </ion-row>
+
+
+
+
+  </ion-grid>
+
+
+
+
+
+
 </ion-content>
