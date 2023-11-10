@@ -28,4 +28,4 @@ https://ia-pplication.com/blog/ionic-http
  1. Versión de "node -v" v18.17.1
  2. Versión de "npm -v" v10.2.0
 
- 
+ 9 3879 3403

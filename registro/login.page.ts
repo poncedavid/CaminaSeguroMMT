@@ -44,31 +44,22 @@ export class LoginPage implements OnInit {
 
 
   async ingresar() {
+
     var f = this.formularioLogin.value;
-    var usuarioString = localStorage.getItem('usuario');
-  
-    if (usuarioString) {
-      var usuario = JSON.parse(usuarioString);
-  
-      if (usuario && usuario.nombre === f.nombre && usuario.password === f.password) {
-        console.log("Usuario correcto");
-      } else {
-        const alert = await this.alertController.create({
-          header: 'Datos incorrectos',
-          message: 'Los datos que ingresaste son incorrectos',
-          buttons: ['Aceptar']
-        });
-        await alert.present();
-      }
-    } else {
+    var usuario = JSON.parse(localStorage.getItem('usuario'));
+
+    if (usuario.nombre == f.nombre && usuario.password == f.password) {
+      console.log("Usuario correcto");
+    }else{
       const alert = await this.alertController.create({
-        header: 'Usuario no encontrado',
-        message: 'No se encontró un usuario almacenado.',
+        header: 'Datos incorrectos',
+        message: 'Los datos que ingresastes son incorrectos',
         buttons: ['Aceptar']
       });
       await alert.present();
     }
   }
+
 
 
   // async ingresar() {

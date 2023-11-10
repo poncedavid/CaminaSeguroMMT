@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -8,18 +7,9 @@ import { Router } from '@angular/router';
 })
 export class RegistroPage implements OnInit {
 
-  constructor(
-    private router: Router,
-  ) { }
+  constructor() { }
 
   ngOnInit() {
   }
-
-
-
-  registroMail() {
-    this.router.navigate(['/registro/email'])
-  }
-
 
 }
