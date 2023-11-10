@@ -34,6 +34,10 @@ export class EmailPage implements OnInit {
   ngOnInit() {
   }
 
+  irTutorial() {
+    this.router.navigate(['/home/tuto01'])
+  }
+
   registroMail() {
     this.router.navigate(['/registro/email']);
   }
