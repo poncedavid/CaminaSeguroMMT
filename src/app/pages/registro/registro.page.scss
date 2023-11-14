@@ -32,10 +32,48 @@ ion-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  margin-bottom: 10px;
+
   max-width: 100%; /* Ajusta esto según tus necesidades */
 }
 
-.logo-bajo-maipu, .logo-bajo-duoc{
-  padding-top:100px ;
+.logo-bajo-maipu{
+  height: 150px;
+  padding-left: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-bajo-duoc{
+
+  padding-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.terminos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.terminos p{
+  color: white;
+  padding-left: 10px;
+}
+
+.terminos p span{
+  color: #680064;
+}
+
+.terminos p a{
+  color: #ffffff;
+  text-decoration: none;
 }
