@@ -19,4 +19,8 @@ export class HomePage implements OnInit {
     this.router.navigate(['/customers'])
   }
 
+  irAlarma() {
+    this.router.navigate(['/alarma'])
+  }
+
 }

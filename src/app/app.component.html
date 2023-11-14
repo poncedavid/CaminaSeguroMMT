@@ -2,17 +2,25 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
-        <img src="../assets/icon/mmt-transparente.png">
         <ion-list id="inbox-list">
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon aria-hidden="true" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
+
             </ion-item>
+            
           </ion-menu-toggle>
+        </ion-list>
+
+        <ion-list id="inbox-list">
+
+           <ion-button  lines="none" detail="false" routerLinkActive="selected" (click)="irAlarma()" color ="danger"expand="full">Alarma</ion-button>
+
         </ion-list>
       </ion-content>
       
+        <img src="../assets/icon/mmt-transparente.png">
 
       
     </ion-menu>

@@ -2,40 +2,21 @@
   text-align: center;
   font-size: 42px;
   color: rgb(255, 255, 255);
-  padding: 20px;
-  margin-top: 80px;
+  padding: 25px;
   font-weight: bold;
 }
 
 
 ion-button {
-    margin-top: 10px;
-    background-color: rgb(250, 76, 164);
+    background-color: #FF69B4;
     color: white;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 19px;
-    border: 1px solid rgb(145, 144, 144);
-    height: 60px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ajusta según sea necesario */
+    border: 1px solid #FF69B4;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5); /* Ajusta según sea necesario */
   }
 
-.texto {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
-ion-content {
-  background: rgb(255,161,221);
-  background: linear-gradient(180deg, rgba(255,161,221,1) 2%, rgba(64,19,236,1) 100%);
-}
-
-.titulo {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 .principal{
     background: rgb(228, 79, 156);
@@ -49,10 +30,3 @@ ion-content {
     height: 100%;
 }
 
-.logo-maipu{
-  padding: 60px;
-}
-
-.logo-duoc{
-  padding: 10px;
-}

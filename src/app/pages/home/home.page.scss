@@ -48,3 +48,16 @@ ion-content{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+ion-button[slot='fixed'] {
+    top: 25%;
+    right: -15px;
+    background-color: red;
+}
+
+
+.logo-alarmita{
+height: 30px;
+padding-right: 35px;
+margin-left: 25px;
+}

@@ -10,6 +10,10 @@
 </ion-header>
 <ion-content color="mmt" class="main">
 
+  <ion-button color="red" slot="fixed" (click)="irAlarma()">
+    <img src="../../../assets/icon/alarmita.png" alt="" class="logo-alarmita">
+  </ion-button>
+
   <ion-grid>
     <ion-row>
 
@@ -102,9 +106,9 @@
       </ion-tab-button>
 
       <ion-tab-button tab="search">
-        <ion-icon name="menu"></ion-icon>
-        Menu
+        <ion-menu-button></ion-menu-button>
       </ion-tab-button>
+      
     </ion-tab-bar>
   </ion-tabs>
 

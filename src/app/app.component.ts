@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-root',
@@ -18,26 +21,35 @@ export class AppComponent {
       icon: 'body' },
 
     { title: 'Noticias',
-      url: '/noticias',
+      url: '/customers',
       icon: 'newspaper' },
 
     { title: 'Alarma',
       url: '/alarma',
       icon: 'flag' },
 
-    { title: 'Usuarios',
-      url: '/customers',
-      icon: 'people' },
+    // { title: 'Usuarios',
+    //   url: '/customers',
+    //   icon: 'people' },
 
-    { title: 'Sedes',
-      url: '/sedes',
-      icon: 'location' },
+    // { title: 'Sedes',
+    //   url: '/sedes',
+    //   icon: 'location' },
 
-    { title: 'Información',
-      url: '/informacion',
-      icon: 'information-circle' },
+    // { title: 'Información',
+    //   url: '/informacion',
+    //   icon: 'information-circle' },
   ];
 
 
-  constructor() {}
+  constructor(
+    private router: Router,
+  ) {}
+
+
+
+
+  irAlarma() {
+    this.router.navigate(['/alarma'])
+  }
 }

@@ -60,6 +60,6 @@ export class EmailPage implements OnInit {
 
   localStorage.setItem('usuario', JSON.stringify(usuario));
   localStorage.setItem('ingreso', 'true');
-  this.navCtrl.navigateRoot('home');
+  this.navCtrl.navigateRoot('/home');
 }
 }

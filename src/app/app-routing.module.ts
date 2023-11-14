@@ -12,48 +12,67 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'customers',
-    loadChildren: () => import('./pages/customers/customers.module').then( m => m.CustomersPageModule)
+    loadChildren: () => import('./pages/customers/customers.module').then( m => m.CustomersPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'sedes',
-    loadChildren: () => import('./pages/sedes/sedes.module').then( m => m.SedesPageModule)
+    loadChildren: () => import('./pages/sedes/sedes.module').then( m => m.SedesPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'login',
-    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule),
+    canActivate: [NoIngresadoGuard]
     
   },
   {
     path: 'informacion',
-    loadChildren: () => import('./pages/informacion/informacion.module').then( m => m.InformacionPageModule)
+    loadChildren: () => import('./pages/informacion/informacion.module').then( m => m.InformacionPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'perfil',
-    loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule)
+    loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'sede/:id',
-    loadChildren: () => import('./pages/sede/sede.module').then( m => m.SedePageModule)
+    loadChildren: () => import('./pages/sede/sede.module').then( m => m.SedePageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'denuncia',
-    loadChildren: () => import('./pages/denuncia/denuncia.module').then( m => m.DenunciaPageModule)
+    loadChildren: () => import('./pages/denuncia/denuncia.module').then( m => m.DenunciaPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'noticias',
-    loadChildren: () => import('./pages/noticias/noticias.module').then( m => m.NoticiasPageModule)
+    loadChildren: () => import('./pages/noticias/noticias.module').then( m => m.NoticiasPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'alarma',
-    loadChildren: () => import('./pages/alarma/alarma.module').then( m => m.AlarmaPageModule)
+    loadChildren: () => import('./pages/alarma/alarma.module').then( m => m.AlarmaPageModule),
+    canActivate: [IngresadoGuard]
   },
   {
     path: 'registro',
-    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule)}
+    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule),
+    canActivate: [NoIngresadoGuard]
+  },
+    
+  {
+    path: 'mapa',
+    loadChildren: () => import('./pages/mapa/mapa.module').then( m => m.MapaPageModule),
+    canActivate: [IngresadoGuard]
+  }
+
 
 
 ];
