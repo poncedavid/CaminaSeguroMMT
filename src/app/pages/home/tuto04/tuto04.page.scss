@@ -4,10 +4,6 @@ ion-button{
     background: linear-gradient(90deg, rgba(228,79,156,1) 0%, rgba(255,151,217,1) 50%, rgba(189,19,236,1) 100%);
 }
 
-ion-content{
-    
-    background-color: var(--ion-color-mmt);
-}
 
 .titulo_4{
     font-size: 35px;
@@ -15,22 +11,19 @@ ion-content{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding: 30px;
+
 }
 
 .descripcion_4{
     font-size: 20px;
     text-align: center;
-    padding: 20px;
-    margin-top: -20px;
+
 }
 
-.margen-sup_4{
-    margin-top: 40px;
-}
+
 
 .relleno_4{
-    padding: 30px;
+    padding: 20px;
 }
 
 span{
@@ -45,11 +38,12 @@ span{
 
 button {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 16px;
     width: 100%;
     height: 50px;
-    border-radius: 10px;
-    background: rgb(228, 79, 156);
-    background: linear-gradient(90deg, rgba(228, 79, 156, 1) 0%, rgba(255, 151, 217, 1) 50%, rgba(189, 19, 236, 1) 100%);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 28px;
+    border: 1px solid #FFE4F2;
+    background: #9D0A97;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
+  
