@@ -1,13 +1,91 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>mapa</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-toolbar>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">mapa</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-buttons slot="primary">
+    <ion-button>
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content color="mmt" class="main">
+
+  <ion-button color="red" slot="fixed" (click)="irAlarma()">
+    <img src="../../../assets/icon/alarmita.png" alt="" class="logo-alarmita">
+  </ion-button>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto1</div>
+      </ion-col>
+
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto1</div>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="10">
+        <div class="texto">Texto1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="2">
+        <div class="texto">Texto1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="12">
+        <div class="texto">Texto1</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
+
+
+
+  <ion-button color="red" slot="fixed" (click)="irAlarma()">
+    <img src="../../../assets/icon/alarmita.png" alt="" class="logo-alarmita">
+  </ion-button>
+  <div id="container">
+    <button class="btn" (click)="irPerfil()">Perfil</button>
+  </div>
+
+
+
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon (click)="irMapa()" name="map-outline"></ion-icon>
+        Mapa
+      </ion-tab-button>
+
+
+      <ion-tab-button tab="radio">
+        <ion-icon (click)="irNoticias()" name="newspaper-outline"></ion-icon>
+        Noticias
+      </ion-tab-button>
+
+
+      <ion-tab-button tab="library">
+        <ion-icon name="home-outline"></ion-icon>
+        Inicio
+      </ion-tab-button>
+
+      <ion-tab-button tab="search">
+        <ion-icon name="notifications-outline"></ion-icon>
+        Alertas
+      </ion-tab-button>
+
+      <ion-tab-button tab="menu">
+        <ion-menu-button></ion-menu-button>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
+
 </ion-content>

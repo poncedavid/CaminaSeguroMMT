@@ -22,5 +22,11 @@ export class HomePage implements OnInit {
   irAlarma() {
     this.router.navigate(['/alarma'])
   }
+  irMapa() {
+    this.router.navigate(['/mapa'])
+  }
+  irNoticias() {
+    this.router.navigate(['/noticias'])
+  }
 
 }

@@ -71,7 +71,11 @@ const routes: Routes = [
     path: 'mapa',
     loadChildren: () => import('./pages/mapa/mapa.module').then( m => m.MapaPageModule),
     canActivate: [IngresadoGuard]
+  },  {
+    path: 'notificaciones',
+    loadChildren: () => import('./pages/notificaciones/notificaciones.module').then( m => m.NotificacionesPageModule)
   }
+
 
 
 

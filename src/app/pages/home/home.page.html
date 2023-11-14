@@ -1,18 +1,3 @@
-
-<!-- 
-
-<ion-header>
-  <ion-toolbar color="mmt">
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
- -->
-
 <ion-toolbar>
 
   <ion-buttons slot="primary">
@@ -39,9 +24,9 @@
         <div class="texto">Texto1</div>
       </ion-col>
 
-      </ion-row>
+    </ion-row>
 
-      <ion-row>
+    <ion-row>
       <ion-col sizeLg="4" sizeMd="4" sizeXs="10">
         <div class="texto">Texto1</div>
       </ion-col>
@@ -72,14 +57,14 @@
   <ion-tabs>
     <ion-tab-bar slot="bottom">
       <ion-tab-button tab="home">
-        <ion-icon name="map-outline"></ion-icon>
+        <ion-icon (click)="irMapa()" name="map-outline"></ion-icon>
         Mapa
       </ion-tab-button>
 
 
       <ion-tab-button tab="radio">
-        <ion-icon name="newspaper-outline"></ion-icon>
-        Radio
+        <ion-icon (click)="irNoticias()" name="newspaper-outline"></ion-icon>
+        Noticias
       </ion-tab-button>
 
 
@@ -96,7 +81,7 @@
       <ion-tab-button tab="menu">
         <ion-menu-button></ion-menu-button>
       </ion-tab-button>
-      
+
     </ion-tab-bar>
   </ion-tabs>
 
